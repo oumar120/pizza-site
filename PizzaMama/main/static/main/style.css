@@ -1,0 +1,23 @@
+body{
+background:url('image/main_background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  margin:0px;
+  font-family:Arial;
+}
+#main_background_image{
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%)
+}
+#lien_vers_menu{
+display: block;
+text-alin:center;
+margin-top: 25px;
+margin-left: 120px;
+color:red;
+}

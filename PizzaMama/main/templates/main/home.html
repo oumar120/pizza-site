@@ -1,0 +1,14 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
+</head>
+<body>
+<div id="main_background_image">
+    <img src="{% static 'main/image/main_logo.png'%}" alt="">
+    <a id="lien_vers_menu" href="{% url 'menu:index' %}">Acceder au Menu</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+body{
+background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("image/menu_background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  margin:0px;
+  font-family:Arial;
+}
+.logo{
+margin-top:25px;
+margin-left:35px;
+}
+h1{
+background-color:#dd7535;
+display:inline;
+padding:8px 30px;
+
+}
+.menu_title{
+margin-top:40px;
+margin-bottom:60px;
+}
+.menu_list{
+margin-left:40px
+}
+.menu_list_item{
+padding: 15px 0px;
+}
+.item_title{
+font-weight:bold;
+font-size:30px;
+display:inline-block;
+width: 500px;
+}
+.item_price{
+color:#dd7535;
+font-size:25px;
+margin-left:10px;
+width:120px;
+text-align:center;
+display:inline-block;
+}
+.item_ingredient{
+color:#c8c8c8;
+display:block;
+margin-top:4px;
+width:400px;
+}
+.item_vegetarien{
+background-color: #dd7535;
+display:inline-block;
+padding: 5px 8px;
+margin-top:8px;
+color: black;
+border-radius:10px;
+font-weight:bold;
+}
